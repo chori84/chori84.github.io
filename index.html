@@ -2,16 +2,68 @@
 <html>
   <head>
 				<link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+				<style>
+					body > .ui.container {
+						margin-top: 3em;
+					}
+					.ui.container > h1 {
+						font-size: 3em;
+						text-align: center;
+						font-weight: normal;
+					}
+					.ui.container > h2.dividing.header {
+						font-size: 2em;
+						font-weight: normal;
+						margin: 4em 0em 3em;
+					}
+				</style>
+
 				<script
 								src="https://code.jquery.com/jquery-3.1.1.min.js"
 								integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 								crossorigin="anonymous"></script>
 				<script src="semantic/semantic.js"></script>
+				<script>
+      var index = {
+        init: function() {
+        }
+      };
+
+      $(document).ready(function() {
+        index.init();
+      });
+				</script>
 		</head>
 
   <body>
-		  <button class="ui button">
-		    Follow
-		  </button>
-		</body>
+		<div class="ui container">
+
+			<h1>Hee Chul's Blog</h1>
+
+			<h2 class="ui dividing header">소개</h2>
+			<div class="ui message">
+				<p>안녕하세요. 최희철입니다.</p>
+				<p>현재 IT 회사에 재직 중인데 경력에 비해 실력이 많이 부족해서 스터디에 참여하게 되었습니다.</p>
+				<p>많이 부족하지만 잘 부탁드립니다.</p></br>
+				<p>언어 : java, javascript</p>
+				<p>프레임워크 : Spring</p>
+				<p>javascript library : jQuery</p>
+				<p>Tool : IntelliJ, Visual Studio Code, SourceTree</p>
+			</div>
+
+			<h2 class="ui dividing header">Link</h2>
+			<a href="https://github.com/chori84"><i class="big icon git"></i></a>
+			<a href="https://gitlab.com/chori"><i class="big icon gitlab"></i></a>
+			<a href="https://www.facebook.com/profile.php?id=100001896881878"><i class="big icon facebook square"></i></a>
+			<a href="https://www.instagram.com/chorikun"><i class="big icon instagram"></i></a>
+
+			<h2 class="ui dividing header">남길말</h2>
+			<div class="ui message">
+				<p>뭘 넣어야 될지 모르겠어서 굉장히 많이 비었네요.</p>
+				<p>앞으로 스터디 진행하면서 좀 더 괜찮은 블로그로 꾸미거나 새로 만들었음 좋겠습니다.</p>
+			</div>
+		</div>
+
+		
+	</body>
 </html>
